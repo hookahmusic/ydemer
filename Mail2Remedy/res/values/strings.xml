@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello estRemedy!</string>
+    <string name="app_name">Yde mer´</string>
+
+
+    <string-array name="afslut_sag_tid">  
+        <item>15Min</item>  
+        <item>30Min</item>  
+        <item>45Min</item>  
+        <item>60Min</item>
+        <item>90Min</item>
+        <item>120Min</item>    
+    </string-array>  
+
+    <string-array name="afslut_sag_activity_spinner">        
+        <item>Predefineret</item>
+        <item>Genstartet</item>  
+        <item>Bruger support</item>  
+        <item>Filen er blevet retranskodet</item>  
+        <item>Konto låst op</item>
+        <item>Brugerfejl</item>
+        <item>Format konvertering</item>
+    </string-array>  
+    
+   <string-array name="afslut_sag_priotet">  
+        <item>Low</item>  
+        <item>Medium</item>  
+        <item>High</item>  
+        <item>Urgent</item>
+    </string-array>  
+   
+
+   <string-array name="afslut_sag_category">  
+        <item>Administrative systemer</item>  
+        <item>Brugeradministration</item>  
+        <item>Kontor / Redaktion</item>  
+        <item>Produktion / Udsendelse</item>
+        <item>Teknisk intern sag</item>
+        <item>Telefoni</item>
+        <item>Øvrigt</item>
+    </string-array> 
+
+
+     <string-array name="afslut_sag_type1">  
+        <item>Personale</item>  
+        <item>Program</item>  
+        <item>Teknik</item>  
+        <item>Økonomi</item>
+        <item>Øvrigt</item>
+    </string-array>  
+       
+    <string-array name="afslut_sag_type2">  
+        <item>Bruger</item>  
+        <item>BrugerPortal</item>  
+        <item>Mappe / Site</item>  
+        <item>Password</item>
+        <item>Post</item>
+        <item>Øvrigt</item>
+    </string-array>    
+    
+    <string-array name="afslut_sag_type3">  
+        <item>Image</item>  
+        <item>Office</item>  
+        <item>PC / MAC</item>  
+        <item>Printer</item>
+        <item>Serviceanmodning</item>
+        <item>Software</item>
+        <item>Øvrigt</item>
+    </string-array>  
+        
+       
+    <string-array name="afslut_sag_type4">  
+        <item>Løst udstyr</item>  
+        <item>Radio</item>  
+        <item>TV</item>  
+        <item>WEB</item>
+        <item>Øvrigt</item>
+    </string-array>            
+       
+           
+    <string-array name="afslut_sag_type5">  
+        <item>Backup / Restore</item>  
+        <item>Fra Openview</item>  
+        <item>Hardware</item>  
+        <item>Netværk konfiguration</item>
+        <item>System</item>
+        <item>Øvrigt</item>
+    </string-array>  
+       
+                  <string-array name="afslut_sag_type6">  
+        <item>ADSL</item>  
+        <item>IP telefoni</item>  
+        <item>ISDN / PSTN</item>  
+        <item>Mobil / abonnement</item>
+        <item>Udlån</item>
+        <item>Øvrigt</item>
+    </string-array>  
+                      
+                   <string-array name="afslut_sag_type7">  
+        <item>Øvrigt</item>  
+    </string-array>  
+                      
+                     
+    <string-array name="afslut_sag_item1">  
+        <item>Perspektiv Tid</item>  
+        <item>Workplace</item>  
+        <item>Øvrigt</item>  
+    </string-array>                    
+                       
+                       
+    <string-array name="afslut_sag_item2">  
+        <item>DR Koncept</item>  
+        <item>RP / Research</item>  
+        <item>Whats on</item>  
+        <item>Øvrigt</item>  
+    </string-array>                   
+                       
+    <string-array name="afslut_sag_item3">  
+        <item>Remedy</item>  
+        <item>Øvrigt</item>  
+    </string-array>                     
+                       
+    <string-array name="afslut_sag_item4">  
+        <item>Discoverer</item>  
+        <item>Licens</item>  
+        <item>Løn-rejse</item>  
+        <item>Økonomisystem</item>  
+        <item>Øvrigt</item>
+    </string-array>   
+                          
+    <string-array name="afslut_sag_item5">  
+        <item>Øvrigt</item>  
+    </string-array>                       
+                          
+                          
+    
+     <string-array name="afslut_sag_item11">  
+        <item>Forlængelse personlig</item>  
+        <item>Forlængelse privilegeret</item>  
+        <item>Nedlæggelse Alle</item>  
+        <item>Oprettelse Funktion/Svc</item>  
+        <item>Oprettelse personlig</item>
+        <item>Oprettelse privilegeret</item>  
+        <item>Ændring Alle</item>
+        <item>Øvrigt</item> 
+    </string-array>                         
+                               
+                               
+    <string-array name="afslut_sag_item12">  
+        <item>Delegering</item>  
+        <item>Roller</item>  
+        <item>System</item>  
+        <item>Øvrigt</item> 
+    </string-array>                         
+                                                 
+                               
+    <string-array name="afslut_sag_item13">  
+        <item>Dataserver</item>  
+        <item>Gæstenet</item>  
+        <item>Sharepoint</item>  
+        <item>WebCMS</item> 
+        <item>Øvrigt</item> 
+    </string-array>        
+    
+                                           
+    <string-array name="afslut_sag_item14">  
+        <item>Nyt password</item>  
+        <item>Oplåsning password</item>  
+        <item>Øvrigt</item> 
+    </string-array>                                         
+                               
+    <string-array name="afslut_sag_item15">  
+        <item>Distributionsliste</item>  
+        <item>Fællespostkasse/Voicemail</item>  
+        <item>Kalender til rum</item>  
+        <item>Offentlig mappe</item> 
+        <item>Øvrigt</item> 
+    </string-array>                              
+                               
+    <string-array name="afslut_sag_item16">  
+        <item>Øvrigt</item> 
+    </string-array>            
+    
+      
+    <string-array name="afslut_sag_item21">  
+        <item>MAC installation</item>  
+        <item>MAC reinstallation</item>  
+        <item>PC installation</item>  
+        <item>PC reinstallation</item>  
+        <item>Øvrigt</item> 
+    </string-array>     
+        
+    <string-array name="afslut_sag_item22">  
+        <item>Enterprise Vault</item>  
+        <item>Excel</item>  
+        <item>Officepakken</item>  
+        <item>Outlook</item>  
+        <item>Outlook profil</item> 
+        <item>OWA</item>  
+        <item>Word</item>  
+        <item>Øvrigt</item> 
+    </string-array>           
+        
+     <string-array name="afslut_sag_item23">  
+        <item>Fejlmelding</item>  
+        <item>Harddisk</item>  
+        <item>Keyboard / Mus</item>  
+        <item>Lydkort</item>  
+        <item>Netværk / trådløst</item> 
+        <item>RAM</item>  
+        <item>Skærm</item>  
+        <item>Øvrigt</item> 
+     </string-array>         
+        
+     <string-array name="afslut_sag_item24">  
+        <item>Fax</item>  
+        <item>Papirstop</item>  
+        <item>Printer driver</item>  
+        <item>Printer flytning</item>  
+        <item>Printer installation</item> 
+        <item>Printer server</item>  
+        <item>Scanner</item>  
+        <item>Øvrigt</item> 
+     </string-array>          
+        
+     <string-array name="afslut_sag_item25">  
+        <item>Kassation</item>  
+        <item>PC / MAC Administration</item>  
+        <item>PC / MAC SW Afinstallation</item>  
+        <item>PC / MAC SW Flytning</item>  
+        <item>PC / MAC SW Installation</item> 
+        <item>PC / MAC SW Opgradering</item>  
+        <item>Udlån - PC</item>  
+        <item>Øvrigt</item> 
+    </string-array>           
+        
+    <string-array name="afslut_sag_item26">  
+        <item>Adobe Flash</item>  
+        <item>ESDH</item>  
+        <item>Internet Explorer</item>  
+        <item>Java</item>  
+        <item>SCCM klient</item> 
+        <item>Virus / spyware / SPAM</item>  
+        <item>VPN-klient</item>  
+        <item>Øvrigt</item> 
+    </string-array>         
+        
+    <string-array name="afslut_sag_item27">  
+        <item>Bruger profil</item>  
+        <item>Operativsystem</item>  
+        <item>Windows Media Player</item>  
+        <item>Øvrigt</item> 
+    </string-array>         
+        
+        
+    <string-array name="afslut_sag_item30">  
+        <item>Audio</item>  
+        <item>Lys</item>  
+        <item>Video</item>  
+        <item>Øvrigt</item> 
+    </string-array>           
+        
+    <string-array name="afslut_sag_item31">  
+        <item>MCCP</item>  
+        <item>Mediearkiv og integrationer</item>  
+        <item>Newswire</item>  
+        <item>Redigering</item>
+        <item>Studer CMS</item>  
+        <item>Studie / kontrolrum / Afvikling</item>  
+        <item>Vogne</item>  
+        <item>Øvrigt</item>  
+    </string-array>          
+        
+    <string-array name="afslut_sag_item32">  
+        <item>MCCP</item>  
+        <item>Mediearkiv og integrationer</item>  
+        <item>Newswire</item>  
+        <item>Redigering</item>
+        <item>Studie / kontrolrum / Afvikling</item>  
+        <item>TTV</item>  
+        <item>Øvrigt</item>  
+    </string-array>          
+        
+    <string-array name="afslut_sag_item33">  
+        <item>dr.dk</item>  
+        <item>Intern DR</item>  
+        <item>Streaming</item>  
+        <item>TTV</item>
+        <item>WEBCMS</item>  
+        <item>Øvrigt</item>  
+    </string-array>          
+        
+    <string-array name="afslut_sag_item34">  
+        <item>Info skærme / blå skærm</item>  
+        <item>Mødelokaler</item>  
+        <item>Projektor</item>  
+        <item>Øvrigt</item>  
+    </string-array> 
+        
+    <string-array name="afslut_sag_item40">  
+        <item>Backup</item>  
+        <item>Restore</item>  
+        <item>Systemfejl</item>  
+        <item>Tape drev</item>
+        <item>Tape robotter</item>  
+        <item>Øvrigt</item>  
+    </string-array>         
+
+        
+    <string-array name="afslut_sag_item41">  
+        <item>Ved ikke</item>  
+    </string-array>             
+        
+    <string-array name="afslut_sag_item42">  
+        <item>Cachebatteri</item>  
+        <item>Disk</item>  
+        <item>Netværkskomponent</item>  
+        <item>San</item>
+        <item>Server</item>  
+        <item>Tele / GSM</item>
+        <item>Øvrigt</item>   
+    </string-array>          
+    
+        
+    <string-array name="afslut_sag_item43">  
+        <item>Router</item>  
+        <item>Switch</item>  
+        <item>Øvrigt</item>  
+    </string-array>    
+        
+    <string-array name="afslut_sag_item44">  
+        <item>Database</item>  
+        <item>ISIS</item>  
+        <item>Mediearkiv</item>  
+        <item>Newswire</item>
+        <item>Overvågning</item>  
+        <item>Server</item>
+        <item>TTV</item>
+        <item>Øvrigt</item>   
+    </string-array>          
+    
+    <string-array name="afslut_sag_item45">  
+        <item>Øvrigt</item> 
+    </string-array>         
+    
+       
+    <string-array name="afslut_sag_item50">  
+        <item>Cisco-box</item>  
+        <item>Fejlmelding</item>  
+        <item>Oprettelse / nedlæggelse / Flytning</item>  
+        <item>Øvrigt</item>   
+    </string-array>          
+        
+    <string-array name="afslut_sag_item51">  
+        <item>Callcenter Tlf system</item>  
+        <item>Fejlmelding</item>  
+        <item>Oprettelse / nedlæggelse / Flytning</item>  
+        <item>Øvrigt</item>   
+    </string-array>          
+                
+    <string-array name="afslut_sag_item52">  
+        <item>Fejlmelding</item>  
+        <item>Oprettelse / nedlæggelse / Flytning</item>  
+        <item>Øvrigt</item>   
+    </string-array>           
+        
+    <string-array name="afslut_sag_item53">  
+        <item>Fejlmelding</item>  
+        <item>Mobiltelefonindkøb</item>  
+        <item>Oprettelse / nedlæggelse</item>  
+        <item>Opsætning / Opsætning mail</item>  
+        <item>Portering</item>  
+        <item>Reparation</item>  
+        <item>SIM-kort swap</item> 
+        <item>Øvrigt</item>  
+    </string-array>          
+        
+    <string-array name="afslut_sag_item54">  
+        <item>Cisco-box</item>  
+        <item>Mobil </item>  
+        <item>Mobil bredbånd</item>  
+        <item>Øvrigt</item>   
+    </string-array>       
+    
+    <string-array name="afslut_sag_item55">  
+        <item>Øvrigt</item>   
+    </string-array>             
+        
+        
+    <string-array name="afslut_sag_item60">  
+        <item>Ingen kategorisering passer / Kategorisering mangler</item>   
+        <item>System oprettet</item>   
+        <item>Øvrigt</item>   
+    </string-array>    
+
+    
+    <string-array name="min_gruppe">  
+        <item>NYSS</item>
+		<item>Studie</item>  
+        <item>Service 5000</item>   
+        <item>TPS Audio</item>
+        <item>Infra Vagt</item>     
+    </string-array>    
+        
+
+    <string name="gmail_subject">AndroidOprettelse</string>
+
+        <string-array name="Quick_case_array_17">
+        <item>LiveU:</item><!-- Summary -->
+        <item>LiveU:</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Studie / kontrolrum / Afvikling</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item></item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>High</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Work In Progress</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>LiveU</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+   </string-array>
+    
+    
+    <string-array name="Quick_case_array_16">
+        <item>VIZ:</item><!-- Summary -->
+        <item>VIZ:</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Studie / kontrolrum / Afvikling</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item></item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>High</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Work In Progress</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>VIZ</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+   </string-array>
+    
+   
+   <string-array name="Quick_case_array_15">
+        <item>PK14:</item><!-- Summary -->
+        <item>PK14:</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Studie / kontrolrum / Afvikling</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item></item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>High</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Work In Progress</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>PK14</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+        <string-array name="Quick_case_array_14">
+        <item>PK13:</item><!-- Summary -->
+        <item>PK13:</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Studie / kontrolrum / Afvikling</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item></item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>High</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Work In Progress</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>PK13</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+        <string-array name="Quick_case_array_13">
+        <item>Liquid:</item><!-- Summary -->
+        <item>Liquid:</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Redigering</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item></item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>High</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Work In Progress</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Liquid</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+        <string-array name="Quick_case_array_12">
+        <item>Newswire:</item><!-- Summary -->
+        <item>Newswire:</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Newswire</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item></item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>High</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Work In Progress</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Newswire</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+		
+        <string-array name="Quick_case_array_11">
+        <item>Mediearkiv:</item><!-- Summary -->
+        <item>Mediearkiv:</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Mediearkiv og integrationer</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item></item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>High</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Work In Progress</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Mediearkiv</item><!-- navn til menupunkt i app´en -->
+        </string-array>
+
+		
+      	<string-array name="Quick_case_array_10"><!-- Dont touch it -->
+      	<item>Øvrigt</item>				<!-- Summary -->
+        <item>Øvrigt</item>				<!-- Description -->
+        <item>Produktion / Udsendelse</item>		<!-- Category --> 
+        <item>TV</item>								<!-- Type -->
+        <item>Øvrigt</item>							<!-- Item -->
+        <item>Service Broadcast</item>				<!-- Group -->
+        <item></item>					<!-- Worklog -->
+        <item>30</item>								<!-- Tid brugt i min -->
+        <item>High</item>							<!-- Prioritet = Low, high blabla -->
+        <item>Work In Progress</item>						<!-- Status = Assigned (åben sag), Resolved (sag lukkes)  -->
+    	<item>Øvrigt</item>		        <!-- navn til menupunkt i app´en -->
+    	</string-array>								<!-- Dont touch it -->
+    
+    
+    
+    
+            <string-array name="Quick_case_array_6">
+        <item>LiveU Support</item><!-- Summary -->
+        <item>LiveU Support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Studie / kontrolrum / Afvikling</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til LiveU</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>LiveU Support</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+    
+   
+    
+    
+    
+    
+        <string-array name="Quick_case_array_5">
+        <item>PK14 Support</item><!-- Summary -->
+        <item>PK14 Support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Studie / kontrolrum / Afvikling</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til PK14</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>PK14 Support</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+        <string-array name="Quick_case_array_4">
+        <item>PK13 Support</item><!-- Summary -->
+        <item>PK13 Support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Studie / kontrolrum / Afvikling</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til PK13</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>PK13 Support</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+        <string-array name="Quick_case_array_3">
+        <item>Liquid support</item><!-- Summary -->
+        <item>Liquid support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Redigering</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til Liquid</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Liquid support</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+        <string-array name="Quick_case_array_2">
+        <item>Newswire support</item><!-- Summary -->
+        <item>Newswire support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Newswire</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til Newswire</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Newswire support</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+		
+        <string-array name="Quick_case_array_1">
+        <item>Mediearkiv support</item><!-- Summary -->
+        <item>Mediearkiv support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Mediearkiv og integrationer</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til Mediearkivet</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Mediearkiv support</item><!-- navn til menupunkt i app´en -->
+        </string-array>
+
+   
+        		
+      	<string-array name="Quick_case_array_0"><!-- Dont touch it -->
+      	<item>General Support</item>				<!-- Summary -->
+        <item>General Support</item>				<!-- Description -->
+        <item>Produktion / Udsendelse</item>		<!-- Category --> 
+        <item>TV</item>								<!-- Type -->
+        <item>Øvrigt</item>							<!-- Item -->
+        <item>Service Broadcast</item>				<!-- Group -->
+        <item>En opgave er løst hvor der er leveret general support </item>					<!-- Worklog -->
+        <item>30</item>								<!-- Tid brugt i min -->
+        <item>Medium</item>							<!-- Prioritet = Low, high blabla -->
+        <item>Resolved</item>						<!-- Status = Assigned (åben sag), Resolved (sag lukkes)  -->
+    	<item>General Support</item>		        <!-- navn til menupunkt i app´en -->
+    	</string-array>								<!-- Dont touch it -->
+
+
+
+        <string-array name="StudieQuick_case_array_5">
+        <item>Studie PK14 Support</item><!-- Summary -->
+        <item>Studie PK14 Support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Studie / kontrolrum / Afvikling</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til PK14</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Studie PK14 Support</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+        <string-array name="StudieQuick_case_array_4">
+        <item>Studie PK13 Support</item><!-- Summary -->
+        <item>Studie PK13 Support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Studie / kontrolrum / Afvikling</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til PK13</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Studie PK13 Support</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+        <string-array name="StudieQuick_case_array_3">
+        <item>Studie Liquid support</item><!-- Summary -->
+        <item>Studie Liquid support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Redigering</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til Liquid</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Studie Liquid support</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+        <string-array name="StudieQuick_case_array_2">
+        <item>Studie Newswire support</item><!-- Summary -->
+        <item>Studie Newswire support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Newswire</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til Newswire</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Studie Newswire support</item><!-- Angiv et navn på sagen - til menu knappen i app´en -->
+        </string-array>
+
+
+		
+        <string-array name="StudieQuick_case_array_1">
+        <item>Studie Mediearkiv support</item><!-- Summary -->
+        <item>Studie Mediearkiv support</item><!-- Description -->
+        <item>Produktion / Udsendelse</item><!-- Category --> 
+        <item>TV</item><!-- Type -->
+        <item>Mediearkiv og integrationer</item><!-- Item -->
+        <item>Service Broadcast</item><!-- Group -->
+        <item>Opgave er løst vedr support til Mediearkivet</item><!-- Worklog -->
+        <item>30</item><!-- Tid brugt i min -->
+        <item>Medium</item><!-- Prioritet = Low, Medium, High, Urgent -->
+        <item>Resolved</item><!-- Status = Assigned (åben sag) eller Resolved (sag lukkes)  -->
+        <item>Studie Mediearkiv support</item><!-- navn til menupunkt i app´en -->
+        </string-array>
+
+		
+      	<string-array name="StudieQuick_case_array_0"><!-- Dont touch it -->
+      	<item>Studie General Support</item>				<!-- Summary -->
+        <item>Studie General Support</item>				<!-- Description -->
+        <item>Produktion / Udsendelse</item>		<!-- Category --> 
+        <item>TV</item>								<!-- Type -->
+        <item>Øvrigt</item>							<!-- Item -->
+        <item>Service Broadcast</item>				<!-- Group -->
+        <item>En opgave er løst hvor der er leveret general support </item>					<!-- Worklog -->
+        <item>30</item>								<!-- Tid brugt i min -->
+        <item>Medium</item>							<!-- Prioritet = Low, high blabla -->
+        <item>Resolved</item>						<!-- Status = Assigned (åben sag), Resolved (sag lukkes)  -->
+    	<item>Studie General Support</item>		        <!-- navn til menupunkt i app´en -->
+    	</string-array>								<!-- Dont touch it -->
+
+
+</resources>

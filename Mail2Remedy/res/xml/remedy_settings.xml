@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:title="Remedy settings">
+
+<PreferenceCategory 
+    android:key="gmail_user" 
+    android:title="Gmail user account" 
+    android:summary="Gmail user account"
+    >
+    
+<EditTextPreference 
+    android:title="Gmail user account" 
+    android:summary="Gmail user account" 
+    android:key="gmail_user"
+    android:defaultValue="mail2remedy@gmail.com">
+    
+</EditTextPreference>
+<EditTextPreference 
+    android:title="Gmail password" 
+    android:summary="Gmail password" 
+    android:key="gmail_password"
+    >
+    
+</EditTextPreference>
+</PreferenceCategory>
+<PreferenceCategory 
+    android:title="Send remedy mail til" 
+    android:summary="Send remedy mail til" 
+    android:key="send_to">
+<EditTextPreference 
+    android:key="send_to_mail" 
+    android:summary="send remedy sag til:" 
+    android:title="send remedy sag til:"
+    android:defaultValue="Drtekremedy@dr.dk">
+</EditTextPreference>
+</PreferenceCategory>
+
+<PreferenceCategory 
+    android:title="Bruger ID" 
+    android:key="bruger id">
+<EditTextPreference 
+    android:key="my_bruger_id" 
+    android:title="Bruger ID">
+    
+</EditTextPreference>
+</PreferenceCategory>
+   
+<PreferenceCategory   
+    android:title="Group">  
+    <ListPreference   
+      android:key="min_gruppe"  
+      android:title="Min gruppe"   
+      android:summaryOn="blablabla"  
+      android:entries="@array/min_gruppe"   
+      android:entryValues="@array/min_gruppe"  
+      android:dialogTitle="Min Gruppe" />  
+  </PreferenceCategory>  
+</PreferenceScreen> 
+    
+    
+    
+    
+    
+
+
