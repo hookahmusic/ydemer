@@ -17,41 +17,26 @@ import android.widget.EditText;
 		public String value;
 		public String[] QC_items = null;
 		public void onCreate(Bundle savedInstanceState) {
-	    	super.onCreate(savedInstanceState);
-	        setContentView(R.layout.quick);
-	               
+		int[] knap_by_view ={R.id.quickcase0, R.id.quickcase1, R.id.quickcase2, R.id.quickcase3, R.id.quickcase4, R.id.quickcase5, R.id.quickcase6, R.id.quickcase7}; 
 
-	        int[] knap_by_view ={R.id.quickcase0, R.id.quickcase1, R.id.quickcase2, R.id.quickcase3, R.id.quickcase4, R.id.quickcase5, R.id.quickcase6, R.id.quickcase7}; 
-	        
-        
-	        
-	        
+		super.onCreate(savedInstanceState);
+	        setContentView(R.layout.quick);
+
 	        for (number = 0; number <= 7; number++) {      
-	        	
 	        	int number_array = number+10;
-	        	
 	 		   String knapnavn = "Quick_case_array_" + number_array;
 			   int getRes = getResources().getIdentifier(knapnavn, "array", getPackageName());
 			   Resources getres = getResources();
 			   String[] navnpaaknap = getres.getStringArray(getRes);
 			   
 			   String knap_navnfra_array = navnpaaknap[10];
-			  // gem_data(QC_items[0], "remedy_summary");
-	        	
-	        	
 	        	
 	        button = (Button) findViewById(knap_by_view[number]);
-	        //button.setText(res.getString(knap_navn[number]));
-	        button.setText(knap_navnfra_array);
-	        
-	        
+	        button.setText(knap_navnfra_array);       
 	        button.setOnClickListener(new View.OnClickListener() {
         
-	    	   int temp = number;
-	           public void onClick(View v) {
-	        	   
-        	   
-
+	    	int temp = number;
+	        public void onClick(View v) {
 	        	   hent_QC_data_fra_XML(temp+10);      	   
 	           }
 	         });         
@@ -59,23 +44,16 @@ import android.widget.EditText;
 	}
 	       	
 		    public void hent_QC_data_fra_XML (final int case_array_select){	   
-			    
-			   
-			   
 	   	        AlertDialog.Builder alert = new AlertDialog.Builder(this);
-
 		        alert.setTitle("Angiv Stikord");
 		        alert.setMessage("F.eks: Viz2 er gået i hegnet");
-
 		        // Set an EditText view to get user input 
 		        final EditText input = new EditText(this);
 		        alert.setView(input);
-
 		        alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
 		        public void onClick(DialogInterface dialog, int whichButton) {
 		        	value = input.getText().toString();
-		          // Do something with value!
-	        
+        
 		        
 					   if (haveInternet()){
 			    		   gui_besked("OK net forbindelse");   		       		   
@@ -110,10 +88,7 @@ import android.widget.EditText;
 			    		   myProgressStatus = 95;
 			    		   myProgressLoop = true;
 			    	   }
-
 					   new send_mail().execute();
-		        
-		        
 		        }
 		        });
 
@@ -124,9 +99,6 @@ import android.widget.EditText;
 		        });
 			   
 			   alert.show();
-			   		   
 		   }
-
 	}
-
 
