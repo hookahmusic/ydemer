@@ -20,7 +20,7 @@ import android.widget.EditText;
 		int[] knap_by_view ={R.id.quickcase0, R.id.quickcase1, R.id.quickcase2, R.id.quickcase3, R.id.quickcase4, R.id.quickcase5, R.id.quickcase6, R.id.quickcase7}; 
 
 		super.onCreate(savedInstanceState);
-	        setContentView(R.layout.quick);
+	        setContentView(R.layout.close2);
 
 	        for (number = 0; number <= 7; number++) {      
 	        	int number_array = number+10;
@@ -43,7 +43,9 @@ import android.widget.EditText;
 	        }  	
 	}
 	       	
-		    public void hent_QC_data_fra_XML (final int case_array_select){	   
+	
+		
+		public void hent_QC_data_fra_XML (final int case_array_select){	   
 	   	        AlertDialog.Builder alert = new AlertDialog.Builder(this);
 		        alert.setTitle("Angiv Stikord");
 		        alert.setMessage("F.eks: Viz2 er gået i hegnet");

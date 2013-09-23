@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.TabHost;
 //import android.widget.TabHost.OnTabChangeListener;
 
+@SuppressWarnings("deprecation")
 public class Mail2RemedyMain extends TabActivity   {
     /** Called when the activity is first created. */
 	@Override
@@ -34,7 +35,7 @@ public class Mail2RemedyMain extends TabActivity   {
                       .setContent(intent);
         tabHost.addTab(spec);
         
-        intent = new Intent().setClass(this, open_2click.class);
+        intent = new Intent().setClass(this, TwoClick.class);
         spec = tabHost.newTabSpec("open_quick").setIndicator("Two-Click",
                           res.getDrawable(R.drawable.ic_tab_close))
                       .setContent(intent);
@@ -52,6 +53,9 @@ public class Mail2RemedyMain extends TabActivity   {
                       .setContent(intent);
         tabHost.addTab(spec);
 
+
+        
+        
         tabHost.setCurrentTab(0);
 
     ;}

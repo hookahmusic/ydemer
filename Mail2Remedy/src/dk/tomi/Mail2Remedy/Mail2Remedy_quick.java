@@ -12,7 +12,7 @@ public class Mail2Remedy_quick extends RemedyActivity {
 	public int number;
 	public void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
-        setContentView(R.layout.quick);
+        setContentView(R.layout.close2);
         savedInstanceState = null;
         int[] knap_by_view ={R.id.quickcase0, R.id.quickcase1, R.id.quickcase2, R.id.quickcase3, R.id.quickcase4, R.id.quickcase5, R.id.quickcase6}; 
         min_gruppe = null;

@@ -33,17 +33,10 @@ public class Gmail_reader extends RemedyActivity {
 	     private int mProgressStatus = 0;
 
 	     private Handler mHandler = new Handler();
-	
-	
-	     
-	     
-
 
 	     
 	     
 	     
-	
-	
 	String response = "";
 	/** Called when the activity is first created. */
 	@Override
@@ -51,17 +44,11 @@ public class Gmail_reader extends RemedyActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.cases);
 		textView = (TextView) findViewById(R.id.TextView01);
-	//	TextView txtStatus = (TextView)findViewById(R.id.TextView01);		
+
 		DownloadWebPageTask task = new DownloadWebPageTask();
 		task.execute();
 	}
-	
-	
-//	public void readWebpage(View view) {
-//		DownloadWebPageTask task = new DownloadWebPageTask();
-//		task.execute();
-//
-//	}
+
 	
 
 	private class DownloadWebPageTask extends AsyncTask<String, Void, String> {
@@ -102,13 +89,7 @@ public class Gmail_reader extends RemedyActivity {
 				                	  content += "\n";
 				                	  content += "________________________________________";
 				                	  content += "\n";
-				                	  // String Status 
-		                	  
-				                	  //  textview.setText("" + content +);
-				                	 // Log.d("From", message[i].getFrom()[0] + "");
-				                     // Log.d("Subject", message[i].getSubject() + "");
-				                     // 
-				                     // Log.d("content", content + "");
+
 				                  }				      
 								      
 					} catch (MessagingException e1) {
@@ -130,69 +111,6 @@ public class Gmail_reader extends RemedyActivity {
 
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-/*
-	void gmailread() throws MessagingException, IOException {
-		String content = "";
-				
-			  	   	  Properties props = System.getProperties();
-		      Session session = Session.getDefaultInstance(props, null);
-		      Store store = session.getStore("imaps");
-		      store.connect("imap.gmail.com", "mail2remedy",
-		              "nyss2011");
-		      Folder inbox = store.getFolder("Inbox");
-		      inbox.open(Folder.READ_ONLY);
-		      Message messages[] = inbox.getMessages(5, 1);
-		      for (Message message : messages)
-		          Log.d("Email", message + "");
-		      Message message[] = inbox.getMessages();
-		     
-		     // 
-		      
-		      
-		      //    TextView textviewMail = new TextView(this);
-		      int i = message.length-10;        
-		      int int2 = message.length;
-		      for (; i < message.length; i++){
-		    	  int2--; 
-		                	  content += "modtaget: ";
-		                	  content += message[int2].getSentDate().toString();
-		                	  content += "\n\n";
-		                	  content += message[int2].getContent().toString();
-		                	  content += "\n";
-		                	  content += "________________________________________";
-		                	  content += "\n";
-		                	  // String Status 
-                	  
-		                	  //  textview.setText("" + content +);
-		                	 // Log.d("From", message[i].getFrom()[0] + "");
-		                     // Log.d("Subject", message[i].getSubject() + "");
-		                     // 
-		                     // Log.d("content", content + "");
-		                  }
-	//	      txtStatus.setText("testetetetet");
-			       }
-*/
-
-	
-	
-	
 }
 	
 	
